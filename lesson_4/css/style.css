@@ -1,0 +1,134 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap'); */
+/* @import url('css/fonts.css'); */
+
+.properties{
+font-family: "Poppins",sans-serif;
+}
+.font-primary{
+font-family:  "EudoxusSans",sans-serif;
+}
+.primery-size{
+    font-size: 25px;
+}
+.primery-weight{
+    font-weight: 700;
+}
+.primery-weight-100{
+    font-weight: 100;
+}
+.primery-weight-200{
+    font-weight: 200;
+}
+.primery-weight-300{
+    font-weight: 300;
+}
+.primery-weight-400{
+    font-weight: 400;
+}
+.primery-weight-500{
+    font-weight: 500;
+}
+.primery-weight-600{
+    font-weight: 600;
+}
+.primery-weight-700{
+    font-weight: 700;
+}
+.primery-weight-800{
+    font-weight: 800;
+}
+.primery-weight-900{
+    font-weight: 900;
+}
+.primery-style{
+    font-style: italic;
+}
+.header-title{
+    text-align: center;
+    text-shadow: 5px 5px 5px #000;
+    font-size: 50px;
+}
+.primery-height{
+    line-height: 2.5;
+}
+.primery-spacing{
+    letter-spacing: 2px;
+}
+.primery-word{
+    word-spacing: 15px; 
+}
+.text-overline-primary{
+    text-decoration: overline;
+    
+}
+.text-underline-primary{
+    text-decoration: underline;
+}
+.text-wavy-primary{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+}
+.text-dotted-primary{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: dotted;
+}
+.primery-transform{
+    text-transform: uppercase;
+}
+.primery-indent{
+    text-indent: 20px;
+}
+.text-yellow{
+    color: yellow;
+}
+.text-blue{
+    color: blue;
+}
+.text-red{
+    color: #ff0000;
+}
+.text-red-rgb{
+    color: rgb(255, 0, 0);
+}
+.text-red-rgba{
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.text-red-hsl{
+    color: hsl(0, 100%, 50%);
+}
+.shadow{
+    text-shadow: 5px 5px 5px #000;
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+.box-grown{
+    font-family:"DM Sans",sans-serif;
+}
+
+.title-grown{
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: -1.26px;
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+}
+.title-nature{
+    font-size: 50px;
+    color: #1AAF5B;
+    font-weight: 700;
+    letter-spacing: -1.26px;
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+}
+.text-grown{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #000;
+    opacity: 0.6;
+}
