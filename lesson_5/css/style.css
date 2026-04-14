@@ -1,0 +1,224 @@
+
+.header {
+    font-size: 50px;
+    color: steelblue;
+    text-align: center;
+}
+.pad-color {
+    color: steelblue;
+    text-shadow: 0 4px 4px  rgba(5, 5, 5, 0.75);
+}
+.an-color {
+    color: aliceblue;
+    text-shadow: 0 4px 4px  rgba(5, 5, 5, 0.75);
+}
+.mar-color {
+    color: burlywood;
+    text-shadow: 0 4px 4px  rgba(5, 5, 5, 0.75);
+}
+.inline-block {
+    max-width:  800px;
+    margin: auto;
+    padding: 25px;
+
+}
+.block{
+    background: azure;
+    border: solid;
+    
+}
+.block-value-1 {
+    padding: 20px;
+    background: rgb(251, 174, 81);
+    color: steelblue;
+    border: solid;
+}
+.block-value-2{
+    padding: 30px 50px;
+    background: rgb(245, 212, 172);
+    color: steelblue;
+    border: solid;
+    
+}
+.block-value-3 {
+    padding: 10px 30px 60px;
+    background: rgb(251, 174, 81);
+    color: steelblue;
+    border: solid;
+    
+}
+.block-value-4 {
+    padding: 10px 20px 30px 10px ;
+    background: rgb(245, 212, 172);
+    color: steelblue;
+    border: solid;
+    
+}
+.block-value-5{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background: rgb(251, 174, 81);
+    color: steelblue;
+    border: solid;
+    
+}
+.marg-block {
+    background: steelblue;
+    border: solid;
+}
+.marg-value-1 {
+    margin-top:20px;
+    color: brown;
+    background: rgb(251, 174, 81);
+    border: solid;
+}
+.marg-value-2 {
+    margin-right:20px;
+    color: brown;
+    background: rgb(251, 174, 81);
+    border: solid;
+}
+.marg-value-3 {
+    margin-left: 20px;
+    color: brown;
+    background: rgb(251, 174, 81);
+    border: solid;
+}
+.marg-value-4 {
+    margin-bottom: 20px;
+    color: brown;
+    background: rgb(251, 174, 81);
+    border: solid;
+}
+.marg-block-colaps{
+    background:  steelblue;
+    border: solid;
+}
+.block-colaps-1 {
+    color: brown;
+    margin-top: 20px;
+    background: bisque;
+    border: solid;
+}
+.block-colaps-2 {
+    color: brown;
+    margin-top: -20px;
+    background: burlywood;
+    border: solid;
+}
+.value-container{
+    background:  steelblue;
+    border: solid;
+}
+.block-with{
+    width: 400px;
+    color: brown;
+    background: burlywood;
+    border: solid;
+}
+.block-max-with{
+    max-width: 800px;
+    color: brown;
+    background: burlywood;
+    border: solid;
+}
+.block-min-with{
+    max-width: 200px;
+    color: brown;
+    background: burlywood;
+    border: solid;
+}
+.block-height{
+    height: 100px;
+    color: brown;
+    background: burlywood;
+    border: solid;
+}
+.min-block-height {
+    min-height: 50px;
+    color: brown;
+    background: burlywood;
+    border: solid;
+}
+.max-block-height {
+    max-height: 200px;
+    color: brown;
+    background: burlywood;
+    border: solid;
+}
+.block-visible{
+    margin-top: 20px;
+    color: brown;
+    height: 50px;
+    background: burlywood;
+    border: solid;
+    overflow: visible;
+}
+.block-hidden{
+    margin-top: 20px;
+    color: brown;
+    height: 50px;
+    background: burlywood;
+    border: solid;
+    overflow: hidden;
+}
+.block-scroll{
+    margin-top: 20px;
+    color: brown;
+    height: 50px;
+    background: burlywood;
+    border: solid;
+    overflow: scroll;
+}
+.block-auto{
+    margin-top: 20px;
+    color: brown;
+    height: 50px;
+    background: burlywood;
+    border: solid;
+    overflow: auto;
+}
+.content-container{
+    font-family: "Poppins",sans-serif;
+    border-radius: 10px;
+    max-width:  643px;
+    background: #fff3e3;
+    padding: 60px 40px 40px;
+}
+.new-text{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: #333;
+    margin-bottom: 5px;
+}
+.discover-title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    color: #B88E2F;
+    margin-bottom: 18px;
+}
+.lorem-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #333;
+    margin-bottom: 10px; 
+}
+.buy-box{
+    background: #B88E2F;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 72px;
+    display: inline-block;
+}
+.autor{
+    text-align: center;
+    color:  #B88E2F;
+    font-size: 24px;
+}
