@@ -1,0 +1,240 @@
+.lesson-title{
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    color: blanchedalmond;
+}
+/* Завдання 1 */
+.checkout-box{
+    font-family: "Poppins",sans-serif;
+    max-width:1440px;
+    min-height: 333px;
+    background: url(../img/Rectangle\ 1.jpg);
+}
+.logo{
+    padding-top: 65px;
+    text-align: center;
+}
+.checkout-text{
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: #000;
+}
+.link-box{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    padding-top: 23px;
+    text-align: center;
+}
+.icon {
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.text-box {
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+/* Завдання2 */
+.text-container{
+    font-family: "Barlow",sans-serif;
+    border-radius: 12px;
+    max-width:  834px;
+    padding: 32px;
+    background-color: #1A1A1A;
+}
+.about-box {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #f9efec;
+    /* padding: 32px; */
+}
+.about-text-lorem {
+    /* margin-left: 32px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+}
+.text-lorem-1 {
+    margin-bottom: 30px;
+}
+.text-lorem-2 {
+    margin-bottom: 20px;
+}
+.text-lorem-3 {
+    margin-bottom: 20px;
+}
+.responsibilities-box {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #f9efec;
+}
+.text-lorem-4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-5 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-6 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-7 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-8 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-9 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.requirements-box {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #f9efec;
+}
+.text-lorem-10 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-11 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-12 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.text-lorem-13 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2;
+    padding-left: 25px;
+    background: url(../img/icon.svg) 0 5px no-repeat;
+}
+.benefits-box {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #f9efec;
+}
+.benefits-text-lorem {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b3b3b2
+}
+.text-lorem-14 {
+    margin-bottom: 20px;
+}
+.text-lorem-15 {
+    margin-bottom: 20px;
+}
+.text-lorem-16 {
+    margin-bottom: 20px;
+}
+/* Завдання3 */
+.web-box{
+    background: rgba(3, 3, 3, 0.5);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    min-height: 342px;
+
+}
+.web-box-color{
+    max-width: 1440px;
+    min-height: 342px;
+    background: url(../img/imag_web.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid #000;
+    box-shadow: 0 4px 4px 0 #000;
+}
+.designer-box{
+    font-family: "Barlow",sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f9efec;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 95px;
+    
+}
+.web-button{
+    font-family: "Roboto Flex",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    background: #0a84ff;
+    border-radius: 12px;
+    padding: 13px 78.5px;
+    margin-top: 17px;
+}
