@@ -1,0 +1,444 @@
+.title{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.title-2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text-start{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 35px;
+    padding: 10px;
+}
+.text-finish{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 1345px;
+    margin-top: -30px;
+} 
+.maze-game-container{
+    background: url(../img/game.jpg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    margin: 15px;
+}
+.maze-game-container div:nth-child(1) {
+    width: 2px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #f7d762;
+    border: 3px solid black;
+    margin-left:50px;
+    padding: 41px;
+    
+}
+.maze-game-container div:nth-child(2) {
+    width: 35px;
+    height: 315px;
+    margin-bottom: -30px;
+    margin: 0px 0px -30px 75px ;
+    background: white;
+}
+.maze-game-container div:nth-child(3) {
+    width: 180px;
+    height: 35px;
+    margin: 0px 0px 0px 75px ;
+    background: #ffffff;
+}
+.maze-game-container div:nth-child(4) {
+    width: 35px;
+    height: 105px;
+    margin-left: 220px;
+    margin: 0px 0px 0px 220px; 
+    background: #ffffff;
+    
+}
+.maze-game-container div:nth-child(5) {
+    width: 180px;
+    height: 35px;
+    margin: 0px 0px 0px 75px ;
+    background: #ffffff;
+}
+.maze-game-container div:nth-child(6) {
+    width: 35px;
+    height: 105px;
+    margin: 0px 0px 0px 75px ;
+    background: #ffffff;
+    background: #ffffff;
+}
+.maze-game-container div:nth-child(7) {
+    width: 460px;
+    height: 35px;
+    margin: 0px 0px 0px 75px ;
+    background: #ffffff;
+    margin-bottom: 75px;
+}
+.maze-game-container div:nth-child(8) {
+    width: 35px;
+    height: 155px;
+    margin: -230px 0px 0px 525px ;
+    background: #ffffff;
+}
+.maze-game-container div:nth-child(9) {
+    width: 150px;
+    height: 35px;
+    background: #ffffff;
+    margin: 0px 0px 0px 525px ;
+    margin-top: -180px ;
+}
+.maze-game-container div:nth-child(10) {
+    width: 35px;
+    height: 305px;
+    background: #ffffff;
+    margin: -305px 0px 0px 655px ;
+}
+.maze-game-container div:nth-child(11) {
+    width: 165px;
+    height: 35px;
+    background: #ffffff;
+    margin: -325px 0px 0px 525px ;
+}
+.maze-game-container div:nth-child(12) {
+    width: 35px;
+    height: 140px;
+    margin-top: -230px ;
+    background: #ffffff;
+    margin: -175px 0px 0px 525px ;
+}
+.maze-game-container div:nth-child(13) {
+    width: 865px;
+    height: 35px;
+    background: #ffffff;
+    margin: -155px 0px 0px 525px ;
+}
+.maze-game-container div:nth-child(14) {
+    width: 35px;
+    height: 155px;
+    background: #ffffff;
+    margin: -35px 0px 0px 1380px ;
+}
+.maze-game-container div:nth-child(15) {
+    width: 155px;
+    height: 35px;
+    background: #ffffff;
+    margin: -15px 0px 0px 1260px ;
+}
+.maze-game-container div:nth-child(16) {
+    width: 35px;
+    height: 315px;
+    background: #ffffff;
+    margin: -35px 0px 0px 1260px ;
+}
+.maze-game-container div:nth-child(17) {
+    width: 180px;
+    height: 35px;
+    background: #ffffff;
+    margin: -20px 0px 0px 1115px ;
+}
+.maze-game-container div:nth-child(18) {
+    width: 35px;
+    height: 170px;
+    background:#ffffff;
+    margin: -35px 0px 0px 1110px ;
+}
+.maze-game-container div:nth-child(19) {
+    width: 310px;
+    height: 35px;
+    background: #ffffff;
+    margin-left: 1110px;
+    margin-top: -20px ;
+    margin: -20px 0px 0px 1110px ;
+}
+.maze-game-container div:nth-child(20) {
+    width: 2px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #f7d762;
+    border: 3px solid black;
+    margin-left: 1360px;
+    margin-top: -5px;
+    margin: -5px 0px 0px 1360px ;
+    padding: 41px;
+}
+.maze-game-container:has(div:nth-child(1):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(2):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(2):hover) div:nth-child(3), 
+.maze-game-container:has(div:nth-child(3):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(3):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(3):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(4):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(4):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(4):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(4):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(5):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(5):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(5):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(5):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(5):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(6):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(6):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(6):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(6):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(6):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(6):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(7):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(7):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(7):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(7):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(7):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(7):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(7):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(8):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(9):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(10):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(11):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(12):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(13):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(14):hover) div:nth-child(15),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(15),
+.maze-game-container:has(div:nth-child(15):hover) div:nth-child(16),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(15),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(16),
+.maze-game-container:has(div:nth-child(16):hover) div:nth-child(17),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(15),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(16),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(17),
+.maze-game-container:has(div:nth-child(17):hover) div:nth-child(18),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(15),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(16),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(17),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(18),
+.maze-game-container:has(div:nth-child(18):hover) div:nth-child(19),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(15),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(16),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(17),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(18),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(19),
+.maze-game-container:has(div:nth-child(19):hover) div:nth-child(20),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(2),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(3),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(4),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(5),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(6),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(7),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(8),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(9),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(10),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(11),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(12),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(13),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(14),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(15),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(16),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(17),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(18),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(19),
+.maze-game-container:has(div:nth-child(20):hover) div:nth-child(20){
+    background: #28a8f3;
+    pointer-events: auto;
+}
+.maze-game-container:hover:not(:has div)  {
+    background: #12ff46;
+}
+.maze-game-container div:nth-child(n+2) {
+    pointer-events: none;
+}
+.box-grown{
+    font-family:"DM Sans",sans-serif;
+    max-width: 474px;
+    padding: 30px;
+}
+.linear{
+    max-width: 169px;
+    min-height: 4px;
+    background: linear-gradient(90deg, #12ff46 0%, #000 100%), rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+.title-grown::before{
+    content: "Grown";
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: -1.26px;
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+.title-nature{
+    font-size: 50px;
+    color: #1AAF5B;
+    font-weight: 700;
+    letter-spacing: -1.26px;
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+}
+.text-grown{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #000;
+    opacity: 0.6;
+    margin-bottom: 58px;
+}
+.buttom{
+    padding: 25px 40px;
+    background-color: #1AAF5B;
+    max-width: 209px;
+    border-radius: 0 18px 0 0;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+.link::after{
+    content: url("../img/Path.svg");
+    margin-left: 18px;
+}
+.buttom:hover{
+    background-color: #12ff46;
+}
+.buttom:active{
+    background-color: #28a8f3;
+}
