@@ -1,0 +1,36 @@
+.title{
+    font-size: 40px;
+    background-color: bisque;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.logo,
+.vector-graphics,
+.room-image,
+.room-image-1,
+.room-image-2,
+.room-image-3,
+.room-image-1x-2x-3x {
+    font-size: 25px;
+    background-color: bisque;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.autor{
+    font-size: 20px;
+    background-color: bisque;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
