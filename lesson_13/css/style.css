@@ -1,0 +1,325 @@
+.wrapper{
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    font-family: "Poppins", sans-serif;
+    margin: 20px auto;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+}
+.page__container {
+    max-width: 1183px;
+	margin: 0 auto;
+    
+}
+.page__furniro {
+    font-family: "Poppins", sans-serif;
+	padding-top: 56px;
+	padding-bottom: 56px;
+    
+}
+.page__browse {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.page__title-range {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+.page__text {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 62px;
+}
+.page__items {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	gap: 20px;
+    flex-wrap: wrap;
+}
+.page__item-card {
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+    text-align: center;
+    flex-basis: 381px;
+	gap: 30px;
+}
+.page__link-img {
+    overflow: hidden;
+	border-radius: 10px;
+    transition:  0.8s;
+}
+.page__link-img :not(:last-child) {
+	margin-bottom: 30px;
+}
+.page__link-img:hover{
+    opacity: 0.5;
+}
+.page__link-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+    transition: color 0.8s;
+}
+.page__link-title:hover {
+    color: #c6c4c2;
+    text-decoration: underline;
+} 
+.page__big-container{
+    max-width: 1236px;
+	margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+.page__products{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    color: #3a3a3a;
+}
+.page__products :not(:last-child) {
+	margin-bottom: 32px;
+}
+.page__title-our {
+    margin-bottom: 32px;
+}
+.page__products-items {
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+.page__products-items:not(:last-child) {
+	margin-bottom: 32px;
+}
+.page__products-card {
+    
+}
+.page__products-card{
+    position: relative;
+    display: block;
+}
+.page__sale {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #e97171;
+    font-weight: 500;
+    color: #fff;
+    transition:  0.8s;
+}
+.page__new {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #2EC1AC;
+    font-weight: 500;
+    color: #fff;
+    transition: background-color 0.8s,
+	color 0.8s;
+}
+.page__products-body {
+
+}
+.page__products-content {
+    background: #f4f5f7;
+    padding-left: 15px;
+}
+.page__products-title {
+    
+}
+.page__products-link-title {
+    font-weight: 600;
+	font-size: 24px;
+	line-height: 1.2;
+    color: #3a3a3a;
+    margin-top: 16px;
+}
+.page__products-account {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    margin-top: 8px;
+}
+.page__products-prices {
+    display: flex;
+    margin-top: 8px;
+}
+.page__products-price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3a3a3a;
+    margin-bottom: 28px;
+}
+.page__products-price-old {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: line-through;
+    padding-bottom: 28px;
+    color: #b0b0b0;
+    margin: 3px 0 0 16px;
+}
+.page__products-action-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s;
+	background-color: rgba(58, 58, 58, 0.72);
+	z-index: 3;
+    transition:  0.8s;
+}
+.page__products-items :hover .page__products-action-body {
+    opacity: 1;
+	visibility: visible;
+}
+.page__products-items :hover .page__sale {
+    display: none;
+}
+.page__products-items :hover .page__new {
+    display: none;
+}
+.page__products-action-buttom{
+    display: flex;
+    text-align: center;
+}
+.page__products-buttom-white {
+	padding: 12px 55px;
+    margin-bottom: 24px;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #b88e2f;
+    transition: background-color 0.8s,
+	color 0.8s;
+}
+.page__products-buttom-white:hover {
+	background-color: #b88e2f;
+	color: #fff;	
+}
+.page__products-icons{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	gap: 20px;
+    justify-content: center;
+}
+.page__products-icons a {
+    display: inline-flex;
+    align-items: center;
+}
+.page__products-icon-share::before {
+	content: "";
+	background: url('../img/icons_share.svg') 0 0 / 100% no-repeat;
+	width: 16px;
+	height: 18px;  
+}
+.page__products-icon-share,
+.page__products-icon-compare,
+.page__products-icon-like {
+    transition:  0.8s;
+}
+.page__products-icon-share:hover,
+.page__products-icon-compare:hover,
+.page__products-icon-like:hover {
+    text-decoration: underline;
+}
+.page__products-icon-compare::before{
+    content: "";
+	background: url('../img/icon_compare.svg') 0 0 / 100% no-repeat;
+	width: 16px;
+	height: 18px;  
+}
+.page__products-icon-like::before {
+    content: "";
+	background: url('../img/icon_heart.svg') 0 0 / 100% no-repeat;
+	width: 16px;
+	height: 18px;  
+}
+.page__show-buttom{
+    display: flex;
+    justify-content: center;
+}
+.page__buttom-show-footer {
+    padding: 12px 74px 12px 82px;
+    margin-bottom: 20px;
+	text-align: center;
+    font-weight: 600;
+	font-size: 16px;
+	border: 1px solid #b88e2f;
+    color: #b88e2f;
+	line-height: 1.5;
+	transition: 
+	background-color 0.8s,
+	color 0.8s;
+}
+.page__buttom-show-footer:hover {
+	border: 1px solid #b88e2f;
+	background-color: #b88e2f;
+	color: #fff;
+	transition: 
+	background-color 0.8s,
+	color 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
