@@ -1,0 +1,1200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter%20Tight:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>lesson_19</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img
+              src="img/icons/logo.svg"
+              class="header__image-logo"
+              alt="Image"
+            />
+          </div>
+          <nav class="header__menu menu">
+            <button type="button" class="icon-menu">
+              <span></span>
+            </button>
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Recipes</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Blog</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Contact</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">About us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <ul class="header__social social">
+            <li class="social__item">
+              <a target="_blank" href="#" class="social__link">
+                <img src="img/icons/fb.svg" alt="Image" />
+              </a>
+            </li>
+            <li class="social__item">
+              <a target="_blank" href="#" class="social__link">
+                <img src="img/icons/tw.svg" alt="Image" />
+              </a>
+            </li>
+            <li class="social__item">
+              <a target="_blank" href="#" class="social__link">
+                <img src="img/icons/ins.svg" alt="Image" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="page">
+        <div class="products">
+          <div class="products__hero-container">
+            <section class="hero-banner">
+              <div class="hero-banner__container">
+                <!-- ліва колонка з текстовим контентом -->
+                <div class="hero-banner__content">
+                  <span class="hero-banner__badge">
+                    <img
+                      src="./img/prodocts/recipes.png"
+                      alt="Image"
+                      class="hero-banner__icon-badge"
+                    />
+                    Hot Recipec
+                  </span>
+                  <h1 class="hero-banner__title">
+                    Spicy delicious chicken wings
+                  </h1>
+                  <div class="hero-banner__description">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuipisicing elit, sed
+                      do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqut enim ad minim
+                    </p>
+                  </div>
+                  <!-- Теги характеристики -->
+                  <ul class="hero-banner__meta-list">
+                    <li
+                      class="hero-banner__meta-item hero-banner__meta-item--time"
+                    >
+                      30 Minutes
+                    </li>
+                    <li
+                      class="hero-banner__meta-item hero-banner__meta-item--category"
+                    >
+                      Chicken
+                    </li>
+                  </ul>
+                  <!-- Блок автора і кнопка -->
+                  <div class="hero-banner__footer">
+                    <div class="hero-banner__author author-meta">
+                      <img
+                        src="./img/prodocts/john.png"
+                        alt="Image"
+                        class="author-meta__avatar"
+                      />
+                      <div class="author-meta__info">
+                        <span class="author-meta__name">John Smith</span>
+                        <time datetime="2022-03-15" class="author-meta__date"
+                          >15 March 2022</time
+                        >
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      class="hero-banner__button button-primary"
+                    >
+                      <span>View Recipes</span>
+                      <svg class="button-primary__icon" arial-hidden="true">
+                        <path
+                          d="M12 2.25C10.0716 2.25 8.18657 2.82183 6.58319 3.89317C4.97982 4.96451 3.73013 6.48726 2.99218 8.26884C2.25422 10.0504 2.06114 12.0108 2.43735 13.9021C2.81355 15.7934 3.74215 17.5307 5.10571 18.8943C6.46928 20.2579 8.20656 21.1865 10.0979 21.5627C11.9892 21.9389 13.9496 21.7458 15.7312 21.0078C17.5127 20.2699 19.0355 19.0202 20.1068 17.4168C21.1782 15.8134 21.75 13.9284 21.75 12C21.747 9.41506 20.7188 6.93684 18.891 5.10901C17.0632 3.28118 14.5849 2.25299 12 2.25ZM15.416 12.624L10.916 15.624C10.8031 15.6995 10.6718 15.7428 10.5362 15.7494C10.4005 15.756 10.2657 15.7257 10.1459 15.6616C10.0262 15.5975 9.92612 15.5021 9.85639 15.3856C9.78665 15.2691 9.74988 15.1358 9.75 15V9C9.74988 8.8642 9.78665 8.73092 9.85639 8.6144C9.92612 8.49787 10.0262 8.40248 10.1459 8.3384C10.2657 8.27433 10.4005 8.24398 10.5362 8.2506C10.6718 8.25721 10.8031 8.30055 10.916 8.37598L15.416 11.376C15.5188 11.4445 15.603 11.5373 15.6613 11.6461C15.7195 11.755 15.75 11.8765 15.75 12C15.75 12.1235 15.7195 12.245 15.6613 12.3539C15.603 12.4627 15.5188 12.5555 15.416 12.624Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- Права колонка з графікою -->
+                <div class="hero-banner__visual">
+                  <!-- <img src="./img/icons/like.svg" alt="Image" class="hero-banner__sticked"> -->
+                  <img
+                    src="./img/prodocts/baked-chicken.png"
+                    alt="Image"
+                    class="hero-banner__image"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="categories">
+            <div class="categories__container">
+              <div class="categories__header">
+                <h2 class="categories__title">Categories</h2>
+                <a href="#" class="categories__view-all-link"
+                  >View All Categories</a
+                >
+              </div>
+              <div class="categories__grid">
+                <article class="category-card">
+                  <a href="#" class="category-card__image-wrapper">
+                    <img src="img/prodocts/breakfast.png" alt="Image" />
+                  </a>
+                  <h3 class="category-card__title">
+                    <a href="#" class="category-card__link">Breakfast</a>
+                  </h3>
+                </article>
+                <article class="category-card">
+                  <a href="#" class="category-card__image-wrapper">
+                    <img src="img/prodocts/vegan.avif" alt="Image" />
+                  </a>
+                  <h3 class="category-card__title">
+                    <a href="#" class="category-card__link">Vegan</a>
+                  </h3>
+                </article>
+                <article class="category-card">
+                  <a href="#" class="category-card__image-wrapper">
+                    <img src="img/prodocts/meat.png" alt="Image" />
+                  </a>
+                  <h3 class="category-card__title">
+                    <a href="#" class="category-card__link">Meat</a>
+                  </h3>
+                </article>
+                <article class="category-card">
+                  <a href="#" class="category-card__image-wrapper">
+                    <img src="img/prodocts/dessert.png" alt="Image" />
+                  </a>
+                  <h3 class="category-card__title">
+                    <a href="#" class="category-card__link">Dessert</a>
+                  </h3>
+                </article>
+                <article class="category-card">
+                  <a href="#" class="category-card__image-wrapper">
+                    <img src="img/prodocts/lunch.png" alt="Image" />
+                  </a>
+                  <h3 class="category-card__title">
+                    <a href="#" class="category-card__link">Lunch</a>
+                  </h3>
+                </article>
+                <article class="category-card">
+                  <a href="#" class="category-card__image-wrapper">
+                    <img src="img/prodocts/chocolate.png" alt="Image" />
+                  </a>
+                  <h3 class="category-card__title">
+                    <a href="#" class="category-card__link">Chocolate</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="products__container">
+            <div
+              class="products__header-block header-block header-block--center"
+            >
+              <h1 class="header-block__tittle">Simple and tasty recipes</h1>
+              <div class="header-block__text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque nihil eum accusamus magnam impedit ad, sed minus
+                  quibusdam voluptatibus non veritatis officia ut quasi
+                  laboriosam saepe praesentium aspernatur, aut consectetur.
+                </p>
+              </div>
+            </div>
+            <div class="products__items">
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/01.jpg"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a
+                    class="item-product__favorite item-product__favorite--active"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Big and Juicy Wagyu Beef Cheeseburger
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/02.jpg"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a class="item-product__favorite">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Fresh Lime Roasted Salmon with Ginger Sauce
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/03.jpg"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a class="item-product__favorite">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Strawberry Oatmeal Pancake with Honey Syrup
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/04.jpg"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a
+                    class="item-product__favorite item-product__favorite--active"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Fresh and Healthy Mixed Mayonnaise Salad
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/05.jpg"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a class="item-product__favorite">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Chicken Meatballs with Cream Cheese
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="products__item product-gradient-item">
+                <a href="#" class="product-gradient-item__link-image-gradient">
+                  <article class="product-gradient-item__content">
+                    <h3 class="product-gradient-item__title07">
+                      Don’t forget to eat healthy food
+                    </h3>
+                    <img
+                      src="img/prodocts/07.png"
+                      class="product-gradient-item__image07"
+                      alt="Image"
+                    />
+                    <span class="product-gradient-item__link">www.foodieland.com</span>
+                  </article>
+                </a>
+              </div>
+
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/06.jpg"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a
+                    class="item-product__favorite item-product__favorite--active"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Fruity Pancake with Orange & Blueberry
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/08.png"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a
+                    class="item-product__favorite item-product__favorite--active"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Fruity Pancake with Orange & Blueberry
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products__item item-product">
+                <article class="item-product__header">
+                  <a href="#" class="item-product__link-image">
+                    <img
+                      src="img/prodocts/09.png"
+                      class="item-product__image"
+                      alt="Image"
+                    />
+                  </a>
+                  <a
+                    class="item-product__favorite item-product__favorite--active"
+                  >
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.5022 3.00001C15.6291 2.99851 14.7677 3.20077 13.9865 3.59072C13.2052 3.98066 12.5258 4.54752 12.0022 5.24621C11.293 4.30266 10.3051 3.606 9.17823 3.25482C8.05134 2.90365 6.84256 2.91573 5.72291 3.28936C4.60327 3.663 3.62948 4.37926 2.93932 5.3368C2.24916 6.29434 1.8776 7.44467 1.8772 8.62501C1.8772 15.3621 11.2373 20.6813 11.6357 20.9044C11.7477 20.9671 11.8739 21 12.0022 21C12.1305 21 12.2567 20.9671 12.3687 20.9044C14.0902 19.8961 15.7059 18.7173 17.1914 17.3856C20.4665 14.438 22.1272 11.4905 22.1272 8.62501C22.1255 7.13368 21.5323 5.70393 20.4778 4.6494C19.4233 3.59487 17.9935 3.0017 16.5022 3.00001Z"
+                        fill="#DBE2E5"
+                      />
+                    </svg>
+                  </a>
+                </article>
+                <div class="item-product__body">
+                  <a href="#" class="item-product__link-title">
+                    <h2 class="item-product__title">
+                      Fruity Pancake with Orange & Blueberry
+                    </h2>
+                  </a>
+                  <div class="item-product__options options-item-product">
+                    <div
+                      class="options-item-product__item options-item-product__item--timer"
+                    >
+                      30 Minutes
+                    </div>
+                    <div
+                      class="options-item-product__item options-item-product__item--snack"
+                    >
+                      Snack
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </section>
+          <div class="products__chef-container">
+            <section class="chef-banner">
+              <div class="chef-banner__container">
+                <div class="chef-banner__content">
+                  <div class="chef-banner__badges">
+                    <h1 class="chef-banner__title">
+                      Everyone can be a chef in their own kitchen
+                    </h1>
+                    <div class="chef-banner__description">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqut enim ad minim
+                      </p>
+                    </div>
+                    <div class="chef-banner__footer">
+                      <button type="button" class="chef-banner__button">
+                        <span>Learn More</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="chef-banner__media">
+                    <img
+                      src="./img/prodocts/chef.avif"
+                      alt="Image"
+                      class="chef-banner__icon-badge"
+                    />
+                    <div class="chef-banner__badges-meat">
+                      <img src="./img/prodocts/small-meat.avif" alt="Image" />
+                    </div>
+                    <div class="chef-banner__badges-tomato">
+                      <img src="./img/prodocts/tomato.avif" alt="Image" />
+                    </div>
+                    <div class="chef-banner__badges-onion">
+                      <img src="./img/prodocts/onion.avif" alt="Image" />
+                    </div>
+                    <div class="chef-banner__badges-small-vegan">
+                      <img src="./img/prodocts/small-vegan.avif" alt="Image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="products__container">
+            <div
+              class="products__header-block header-block header-block--center2"
+            >
+              <h1 class="header-block__tittle">
+                Check out @foodieland on Instagram
+              </h1>
+              <div class="header-block__text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqut
+                  enim ad minim
+                </p>
+              </div>
+            </div>
+            <div class="posts-cards">
+              <article class="post-card">
+                <header class="post-card__header">
+                  <div class="post-card__author">
+                    <img
+                      src="./img/prodocts/oval-avatar.png"
+                      alt="Image"
+                      class="post-card__avatar"
+                    />
+                    <div class="post-card__info">
+                      <h3>Foodieland.</h3>
+                      <p>Tokyo, Japan</p>
+                    </div>
+                  </div>
+                  <button class="post-card__menu" type="button">
+                    <svg
+                      width="11"
+                      height="3"
+                      viewBox="0 0 11 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.16 0.000214844C1.80065 0.000214844 2.32 0.519565 2.32 1.16021C2.32 1.80087 1.80065 2.32021 1.16 2.32021C0.51935 2.32021 0 1.80087 0 1.16021C0 0.519565 0.51935 0.000214844 1.16 0.000214844ZM5.41333 0C6.05398 0 6.57333 0.51935 6.57333 1.16C6.57333 1.80065 6.05398 2.32 5.41333 2.32C4.77268 2.32 4.25333 1.80065 4.25333 1.16C4.25333 0.51935 4.77268 0 5.41333 0ZM9.66667 0C10.3073 0 10.8267 0.51935 10.8267 1.16C10.8267 1.80065 10.3073 2.32 9.66667 2.32C9.02602 2.32 8.50667 1.80065 8.50667 1.16C8.50667 0.51935 9.02602 0 9.66667 0Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </header>
+                <div class="post-card__media">
+                  <img src="./img/prodocts/post1.avif" alt="" />
+                  <span class="post-card__counter">1/3</span>
+                </div>
+                <div class="post-card__actions">
+                  <div class="post-card__group">
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="19"
+                        height="16"
+                        viewBox="0 0 19 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.18143 2.05329L8.67484 1.46122C6.6363 -0.577319 3.38535 -0.438403 1.34681 1.60013C-0.691724 3.63867 -0.299403 7.57983 1.73913 9.61837C2.56649 10.4457 3.80551 11.5913 5.45619 13.055L6.84489 14.2767L8.40463 15.6306C8.83409 16.0012 9.46862 16.0069 9.90464 15.644L11.1682 14.5846C13.3809 12.7146 15.0229 11.2417 16.0942 10.1658L16.3722 9.88224L16.6219 9.61837C18.5204 7.57104 19.0083 3.59126 17.0172 1.60013L16.873 1.46122C14.8256 -0.4373 11.7384 -0.529911 9.74727 1.46122L9.18143 2.05329ZM2.16708 2.42023C3.77904 0.808271 6.27282 0.732699 7.82465 2.25166L9.13391 3.78182L10.5859 2.26253C12.0752 0.773611 14.4489 0.795135 16.0842 2.31164L16.2126 2.43552C17.6196 3.84283 17.3802 7.0945 15.7714 8.82947L15.5297 9.08477L15.2616 9.35812C14.3735 10.2494 13.0574 11.4435 11.322 12.9306L10.4194 13.6985L9.16258 14.7523L7.60531 13.4005L6.49076 12.4215C4.92027 11.0335 3.70874 9.92325 2.86047 9.09524L2.5594 8.79798C0.88008 7.11865 0.670041 3.91727 2.16708 2.42023Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.0133 8.50667C17.0133 3.80856 13.2048 0 8.50667 0C3.80856 0 0 3.80856 0 8.50667C0 13.2048 3.80856 17.0133 8.50667 17.0133C9.53207 17.0133 10.9407 16.6393 12.7325 15.8911L15.63 17.0214L15.716 17.0493C16.0905 17.1475 16.4874 16.9514 16.6315 16.582C16.6892 16.4342 16.7 16.2723 16.6625 16.1182L15.8546 12.7956L15.9869 12.479C16.6712 10.8122 17.0133 9.48809 17.0133 8.50667ZM14.9032 12.0641L14.6365 12.6955L15.36 15.6707L12.7178 14.64L11.9962 14.9393C10.4745 15.5534 9.29898 15.8531 8.50667 15.8531C4.44922 15.8531 1.16001 12.5639 1.16001 8.50647C1.16001 4.44902 4.44922 1.1598 8.50667 1.1598C12.5641 1.1598 15.8533 4.44902 15.8533 8.50647C15.8533 9.315 15.5417 10.5135 14.9032 12.0641Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="16"
+                        viewBox="0 0 18 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.4948 0.873008L9.23162 14.9891C8.97146 15.4335 8.30429 15.3437 8.17088 14.8463L6.04393 6.91532L6.0264 6.89054C6.0106 6.86317 5.99728 6.83506 5.98638 6.80645L0.171041 0.990122C-0.194339 0.624742 0.064438 0 0.581163 0H16.9943C17.4423 0 17.7212 0.486352 17.4948 0.873008ZM15.4066 2.14346L7.23129 6.8635L8.93169 13.2049L15.4066 2.14346ZM1.98139 1.15977L14.7918 1.15905L6.67004 5.84816L1.98139 1.15977Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="post-card__action" type="button">
+                    <svg
+                      width="16"
+                      height="18"
+                      viewBox="0 0 16 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0 0.386667V17.1312C0 17.3344 0.0799889 17.5295 0.222669 17.6742C0.522541 17.9783 1.01218 17.9817 1.3163 17.6819L7.92724 11.1633L14.5382 17.6819C14.6829 17.8245 14.8779 17.9045 15.0811 17.9045C15.5082 17.9045 15.8545 17.5583 15.8545 17.1312V0.386667C15.8545 0.173117 15.6814 0 15.4678 0H0.386667C0.173117 0 0 0.173117 0 0.386667ZM1.15999 16.2068V1.15993H14.6945V16.2068L8.47019 10.0696C8.16909 9.77268 7.68536 9.77268 7.38426 10.0696L1.15999 16.2068Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="post-card__pagination">
+                  <span class="post-card__dot post-card__dot--active"></span>
+                  <span class="post-card__dot"></span>
+                  <span class="post-card__dot"></span>
+                </div>
+                <div class="post-card__content">
+                  <p>
+                    Liked by <strong>craig love</strong> and
+                    <strong>44,686 others</strong>
+                  </p>
+                  <p>
+                    <strong>Foodieland</strong>
+                    The vegetables dishes need to have certain vitamin for those
+                    people
+                  </p>
+                  <time datetime="2021-09-19">September 19</time>
+                </div>
+              </article>
+
+              <article class="post-card">
+                <header class="post-card__header">
+                  <div class="post-card__author">
+                    <img
+                      src="./img/prodocts/oval-avatar.png"
+                      alt="Image"
+                      class="post-card__avatar"
+                    />
+                    <div class="post-card__info">
+                      <h3>Foodieland.</h3>
+                      <p>Tokyo, Japan</p>
+                    </div>
+                  </div>
+                  <button class="post-card__menu" type="button">
+                    <svg
+                      width="11"
+                      height="3"
+                      viewBox="0 0 11 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.16 0.000214844C1.80065 0.000214844 2.32 0.519565 2.32 1.16021C2.32 1.80087 1.80065 2.32021 1.16 2.32021C0.51935 2.32021 0 1.80087 0 1.16021C0 0.519565 0.51935 0.000214844 1.16 0.000214844ZM5.41333 0C6.05398 0 6.57333 0.51935 6.57333 1.16C6.57333 1.80065 6.05398 2.32 5.41333 2.32C4.77268 2.32 4.25333 1.80065 4.25333 1.16C4.25333 0.51935 4.77268 0 5.41333 0ZM9.66667 0C10.3073 0 10.8267 0.51935 10.8267 1.16C10.8267 1.80065 10.3073 2.32 9.66667 2.32C9.02602 2.32 8.50667 1.80065 8.50667 1.16C8.50667 0.51935 9.02602 0 9.66667 0Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </header>
+                <div class="post-card__media">
+                  <img src="./img/prodocts/post2.avif" alt="" />
+                  <span class="post-card__counter">1/3</span>
+                </div>
+                <div class="post-card__actions">
+                  <div class="post-card__group">
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="19"
+                        height="16"
+                        viewBox="0 0 19 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.18143 2.05329L8.67484 1.46122C6.6363 -0.577319 3.38535 -0.438403 1.34681 1.60013C-0.691724 3.63867 -0.299403 7.57983 1.73913 9.61837C2.56649 10.4457 3.80551 11.5913 5.45619 13.055L6.84489 14.2767L8.40463 15.6306C8.83409 16.0012 9.46862 16.0069 9.90464 15.644L11.1682 14.5846C13.3809 12.7146 15.0229 11.2417 16.0942 10.1658L16.3722 9.88224L16.6219 9.61837C18.5204 7.57104 19.0083 3.59126 17.0172 1.60013L16.873 1.46122C14.8256 -0.4373 11.7384 -0.529911 9.74727 1.46122L9.18143 2.05329ZM2.16708 2.42023C3.77904 0.808271 6.27282 0.732699 7.82465 2.25166L9.13391 3.78182L10.5859 2.26253C12.0752 0.773611 14.4489 0.795135 16.0842 2.31164L16.2126 2.43552C17.6196 3.84283 17.3802 7.0945 15.7714 8.82947L15.5297 9.08477L15.2616 9.35812C14.3735 10.2494 13.0574 11.4435 11.322 12.9306L10.4194 13.6985L9.16258 14.7523L7.60531 13.4005L6.49076 12.4215C4.92027 11.0335 3.70874 9.92325 2.86047 9.09524L2.5594 8.79798C0.88008 7.11865 0.670041 3.91727 2.16708 2.42023Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.0133 8.50667C17.0133 3.80856 13.2048 0 8.50667 0C3.80856 0 0 3.80856 0 8.50667C0 13.2048 3.80856 17.0133 8.50667 17.0133C9.53207 17.0133 10.9407 16.6393 12.7325 15.8911L15.63 17.0214L15.716 17.0493C16.0905 17.1475 16.4874 16.9514 16.6315 16.582C16.6892 16.4342 16.7 16.2723 16.6625 16.1182L15.8546 12.7956L15.9869 12.479C16.6712 10.8122 17.0133 9.48809 17.0133 8.50667ZM14.9032 12.0641L14.6365 12.6955L15.36 15.6707L12.7178 14.64L11.9962 14.9393C10.4745 15.5534 9.29898 15.8531 8.50667 15.8531C4.44922 15.8531 1.16001 12.5639 1.16001 8.50647C1.16001 4.44902 4.44922 1.1598 8.50667 1.1598C12.5641 1.1598 15.8533 4.44902 15.8533 8.50647C15.8533 9.315 15.5417 10.5135 14.9032 12.0641Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="16"
+                        viewBox="0 0 18 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.4948 0.873008L9.23162 14.9891C8.97146 15.4335 8.30429 15.3437 8.17088 14.8463L6.04393 6.91532L6.0264 6.89054C6.0106 6.86317 5.99728 6.83506 5.98638 6.80645L0.171041 0.990122C-0.194339 0.624742 0.064438 0 0.581163 0H16.9943C17.4423 0 17.7212 0.486352 17.4948 0.873008ZM15.4066 2.14346L7.23129 6.8635L8.93169 13.2049L15.4066 2.14346ZM1.98139 1.15977L14.7918 1.15905L6.67004 5.84816L1.98139 1.15977Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="post-card__action" type="button">
+                    <svg
+                      width="16"
+                      height="18"
+                      viewBox="0 0 16 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0 0.386667V17.1312C0 17.3344 0.0799889 17.5295 0.222669 17.6742C0.522541 17.9783 1.01218 17.9817 1.3163 17.6819L7.92724 11.1633L14.5382 17.6819C14.6829 17.8245 14.8779 17.9045 15.0811 17.9045C15.5082 17.9045 15.8545 17.5583 15.8545 17.1312V0.386667C15.8545 0.173117 15.6814 0 15.4678 0H0.386667C0.173117 0 0 0.173117 0 0.386667ZM1.15999 16.2068V1.15993H14.6945V16.2068L8.47019 10.0696C8.16909 9.77268 7.68536 9.77268 7.38426 10.0696L1.15999 16.2068Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="post-card__pagination">
+                  <span class="post-card__dot post-card__dot--active"></span>
+                  <span class="post-card__dot"></span>
+                  <span class="post-card__dot"></span>
+                </div>
+                <div class="post-card__content">
+                  <p>
+                    Liked by <strong>craig love</strong> and
+                    <strong>44,686 others</strong>
+                  </p>
+                  <p>
+                    <strong>Foodieland</strong>
+                    The vegetables dishes need to have certain vitamin for those
+                    people
+                  </p>
+                  <time datetime="2021-09-19">September 19</time>
+                </div>
+              </article>
+
+              <article class="post-card">
+                <header class="post-card__header">
+                  <div class="post-card__author">
+                    <img
+                      src="./img/prodocts/oval-avatar.png"
+                      alt="Image"
+                      class="post-card__avatar"
+                    />
+                    <div class="post-card__info">
+                      <h3>Foodieland.</h3>
+                      <p>Tokyo, Japan</p>
+                    </div>
+                  </div>
+                  <button class="post-card__menu" type="button">
+                    <svg
+                      width="11"
+                      height="3"
+                      viewBox="0 0 11 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.16 0.000214844C1.80065 0.000214844 2.32 0.519565 2.32 1.16021C2.32 1.80087 1.80065 2.32021 1.16 2.32021C0.51935 2.32021 0 1.80087 0 1.16021C0 0.519565 0.51935 0.000214844 1.16 0.000214844ZM5.41333 0C6.05398 0 6.57333 0.51935 6.57333 1.16C6.57333 1.80065 6.05398 2.32 5.41333 2.32C4.77268 2.32 4.25333 1.80065 4.25333 1.16C4.25333 0.51935 4.77268 0 5.41333 0ZM9.66667 0C10.3073 0 10.8267 0.51935 10.8267 1.16C10.8267 1.80065 10.3073 2.32 9.66667 2.32C9.02602 2.32 8.50667 1.80065 8.50667 1.16C8.50667 0.51935 9.02602 0 9.66667 0Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </header>
+                <div class="post-card__media">
+                  <img src="./img/prodocts/post3.avif" alt="" />
+                  <span class="post-card__counter">1/3</span>
+                </div>
+                <div class="post-card__actions">
+                  <div class="post-card__group">
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="19"
+                        height="16"
+                        viewBox="0 0 19 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.18143 2.05329L8.67484 1.46122C6.6363 -0.577319 3.38535 -0.438403 1.34681 1.60013C-0.691724 3.63867 -0.299403 7.57983 1.73913 9.61837C2.56649 10.4457 3.80551 11.5913 5.45619 13.055L6.84489 14.2767L8.40463 15.6306C8.83409 16.0012 9.46862 16.0069 9.90464 15.644L11.1682 14.5846C13.3809 12.7146 15.0229 11.2417 16.0942 10.1658L16.3722 9.88224L16.6219 9.61837C18.5204 7.57104 19.0083 3.59126 17.0172 1.60013L16.873 1.46122C14.8256 -0.4373 11.7384 -0.529911 9.74727 1.46122L9.18143 2.05329ZM2.16708 2.42023C3.77904 0.808271 6.27282 0.732699 7.82465 2.25166L9.13391 3.78182L10.5859 2.26253C12.0752 0.773611 14.4489 0.795135 16.0842 2.31164L16.2126 2.43552C17.6196 3.84283 17.3802 7.0945 15.7714 8.82947L15.5297 9.08477L15.2616 9.35812C14.3735 10.2494 13.0574 11.4435 11.322 12.9306L10.4194 13.6985L9.16258 14.7523L7.60531 13.4005L6.49076 12.4215C4.92027 11.0335 3.70874 9.92325 2.86047 9.09524L2.5594 8.79798C0.88008 7.11865 0.670041 3.91727 2.16708 2.42023Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.0133 8.50667C17.0133 3.80856 13.2048 0 8.50667 0C3.80856 0 0 3.80856 0 8.50667C0 13.2048 3.80856 17.0133 8.50667 17.0133C9.53207 17.0133 10.9407 16.6393 12.7325 15.8911L15.63 17.0214L15.716 17.0493C16.0905 17.1475 16.4874 16.9514 16.6315 16.582C16.6892 16.4342 16.7 16.2723 16.6625 16.1182L15.8546 12.7956L15.9869 12.479C16.6712 10.8122 17.0133 9.48809 17.0133 8.50667ZM14.9032 12.0641L14.6365 12.6955L15.36 15.6707L12.7178 14.64L11.9962 14.9393C10.4745 15.5534 9.29898 15.8531 8.50667 15.8531C4.44922 15.8531 1.16001 12.5639 1.16001 8.50647C1.16001 4.44902 4.44922 1.1598 8.50667 1.1598C12.5641 1.1598 15.8533 4.44902 15.8533 8.50647C15.8533 9.315 15.5417 10.5135 14.9032 12.0641Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="16"
+                        viewBox="0 0 18 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.4948 0.873008L9.23162 14.9891C8.97146 15.4335 8.30429 15.3437 8.17088 14.8463L6.04393 6.91532L6.0264 6.89054C6.0106 6.86317 5.99728 6.83506 5.98638 6.80645L0.171041 0.990122C-0.194339 0.624742 0.064438 0 0.581163 0H16.9943C17.4423 0 17.7212 0.486352 17.4948 0.873008ZM15.4066 2.14346L7.23129 6.8635L8.93169 13.2049L15.4066 2.14346ZM1.98139 1.15977L14.7918 1.15905L6.67004 5.84816L1.98139 1.15977Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="post-card__action" type="button">
+                    <svg
+                      width="16"
+                      height="18"
+                      viewBox="0 0 16 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0 0.386667V17.1312C0 17.3344 0.0799889 17.5295 0.222669 17.6742C0.522541 17.9783 1.01218 17.9817 1.3163 17.6819L7.92724 11.1633L14.5382 17.6819C14.6829 17.8245 14.8779 17.9045 15.0811 17.9045C15.5082 17.9045 15.8545 17.5583 15.8545 17.1312V0.386667C15.8545 0.173117 15.6814 0 15.4678 0H0.386667C0.173117 0 0 0.173117 0 0.386667ZM1.15999 16.2068V1.15993H14.6945V16.2068L8.47019 10.0696C8.16909 9.77268 7.68536 9.77268 7.38426 10.0696L1.15999 16.2068Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="post-card__pagination">
+                  <span class="post-card__dot post-card__dot--active"></span>
+                  <span class="post-card__dot"></span>
+                  <span class="post-card__dot"></span>
+                </div>
+                <div class="post-card__content">
+                  <p>
+                    Liked by <strong>craig love</strong> and
+                    <strong>44,686 others</strong>
+                  </p>
+                  <p>
+                    <strong>Foodieland</strong>
+                    The vegetables dishes need to have certain vitamin for those
+                    people
+                  </p>
+                  <time datetime="2021-09-19">September 19</time>
+                </div>
+              </article>
+
+              <article class="post-card">
+                <header class="post-card__header">
+                  <div class="post-card__author">
+                    <img
+                      src="./img/prodocts/oval-avatar.png"
+                      alt="Image"
+                      class="post-card__avatar"
+                    />
+                    <div class="post-card__info">
+                      <h3>Foodieland.</h3>
+                      <p>Tokyo, Japan</p>
+                    </div>
+                  </div>
+                  <button class="post-card__menu" type="button">
+                    <svg
+                      width="11"
+                      height="3"
+                      viewBox="0 0 11 3"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.16 0.000214844C1.80065 0.000214844 2.32 0.519565 2.32 1.16021C2.32 1.80087 1.80065 2.32021 1.16 2.32021C0.51935 2.32021 0 1.80087 0 1.16021C0 0.519565 0.51935 0.000214844 1.16 0.000214844ZM5.41333 0C6.05398 0 6.57333 0.51935 6.57333 1.16C6.57333 1.80065 6.05398 2.32 5.41333 2.32C4.77268 2.32 4.25333 1.80065 4.25333 1.16C4.25333 0.51935 4.77268 0 5.41333 0ZM9.66667 0C10.3073 0 10.8267 0.51935 10.8267 1.16C10.8267 1.80065 10.3073 2.32 9.66667 2.32C9.02602 2.32 8.50667 1.80065 8.50667 1.16C8.50667 0.51935 9.02602 0 9.66667 0Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </header>
+                <div class="post-card__media">
+                  <img src="./img/prodocts/post4.avif" alt="" />
+                  <span class="post-card__counter">1/3</span>
+                </div>
+                <div class="post-card__actions">
+                  <div class="post-card__group">
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="19"
+                        height="16"
+                        viewBox="0 0 19 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.18143 2.05329L8.67484 1.46122C6.6363 -0.577319 3.38535 -0.438403 1.34681 1.60013C-0.691724 3.63867 -0.299403 7.57983 1.73913 9.61837C2.56649 10.4457 3.80551 11.5913 5.45619 13.055L6.84489 14.2767L8.40463 15.6306C8.83409 16.0012 9.46862 16.0069 9.90464 15.644L11.1682 14.5846C13.3809 12.7146 15.0229 11.2417 16.0942 10.1658L16.3722 9.88224L16.6219 9.61837C18.5204 7.57104 19.0083 3.59126 17.0172 1.60013L16.873 1.46122C14.8256 -0.4373 11.7384 -0.529911 9.74727 1.46122L9.18143 2.05329ZM2.16708 2.42023C3.77904 0.808271 6.27282 0.732699 7.82465 2.25166L9.13391 3.78182L10.5859 2.26253C12.0752 0.773611 14.4489 0.795135 16.0842 2.31164L16.2126 2.43552C17.6196 3.84283 17.3802 7.0945 15.7714 8.82947L15.5297 9.08477L15.2616 9.35812C14.3735 10.2494 13.0574 11.4435 11.322 12.9306L10.4194 13.6985L9.16258 14.7523L7.60531 13.4005L6.49076 12.4215C4.92027 11.0335 3.70874 9.92325 2.86047 9.09524L2.5594 8.79798C0.88008 7.11865 0.670041 3.91727 2.16708 2.42023Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.0133 8.50667C17.0133 3.80856 13.2048 0 8.50667 0C3.80856 0 0 3.80856 0 8.50667C0 13.2048 3.80856 17.0133 8.50667 17.0133C9.53207 17.0133 10.9407 16.6393 12.7325 15.8911L15.63 17.0214L15.716 17.0493C16.0905 17.1475 16.4874 16.9514 16.6315 16.582C16.6892 16.4342 16.7 16.2723 16.6625 16.1182L15.8546 12.7956L15.9869 12.479C16.6712 10.8122 17.0133 9.48809 17.0133 8.50667ZM14.9032 12.0641L14.6365 12.6955L15.36 15.6707L12.7178 14.64L11.9962 14.9393C10.4745 15.5534 9.29898 15.8531 8.50667 15.8531C4.44922 15.8531 1.16001 12.5639 1.16001 8.50647C1.16001 4.44902 4.44922 1.1598 8.50667 1.1598C12.5641 1.1598 15.8533 4.44902 15.8533 8.50647C15.8533 9.315 15.5417 10.5135 14.9032 12.0641Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                    <button class="post-card__action" type="button">
+                      <svg
+                        width="18"
+                        height="16"
+                        viewBox="0 0 18 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M17.4948 0.873008L9.23162 14.9891C8.97146 15.4335 8.30429 15.3437 8.17088 14.8463L6.04393 6.91532L6.0264 6.89054C6.0106 6.86317 5.99728 6.83506 5.98638 6.80645L0.171041 0.990122C-0.194339 0.624742 0.064438 0 0.581163 0H16.9943C17.4423 0 17.7212 0.486352 17.4948 0.873008ZM15.4066 2.14346L7.23129 6.8635L8.93169 13.2049L15.4066 2.14346ZM1.98139 1.15977L14.7918 1.15905L6.67004 5.84816L1.98139 1.15977Z"
+                          fill="#262626"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="post-card__action" type="button">
+                    <svg
+                      width="16"
+                      height="18"
+                      viewBox="0 0 16 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0 0.386667V17.1312C0 17.3344 0.0799889 17.5295 0.222669 17.6742C0.522541 17.9783 1.01218 17.9817 1.3163 17.6819L7.92724 11.1633L14.5382 17.6819C14.6829 17.8245 14.8779 17.9045 15.0811 17.9045C15.5082 17.9045 15.8545 17.5583 15.8545 17.1312V0.386667C15.8545 0.173117 15.6814 0 15.4678 0H0.386667C0.173117 0 0 0.173117 0 0.386667ZM1.15999 16.2068V1.15993H14.6945V16.2068L8.47019 10.0696C8.16909 9.77268 7.68536 9.77268 7.38426 10.0696L1.15999 16.2068Z"
+                        fill="#262626"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="post-card__pagination">
+                  <span class="post-card__dot post-card__dot--active"></span>
+                  <span class="post-card__dot"></span>
+                  <span class="post-card__dot"></span>
+                </div>
+                <div class="post-card__content">
+                  <p>
+                    Liked by <strong>craig love</strong> and
+                    <strong>44,686 others</strong>
+                  </p>
+                  <p>
+                    <strong>Foodieland</strong>
+                    The vegetables dishes need to have certain vitamin for those
+                    people
+                  </p>
+                  <time datetime="2021-09-19">September 19</time>
+                </div>
+              </article>
+              <div class="posts-cards__button2">
+              <button type="button" class="posts-cards__button-footer">
+                <span>View Recipes</span>
+                <svg
+                  class="posts-cards__icon-footer"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.875 0H15.125C18.9214 0 22 3.07862 22 6.875V15.125C22 18.9214 18.9214 22 15.125 22H6.875C3.07862 22 0 18.9214 0 15.125V6.875C0 3.07862 3.07862 0 6.875 0ZM15.125 19.9375C17.7787 19.9375 19.9375 17.7787 19.9375 15.125V6.875C19.9375 4.22125 17.7787 2.0625 15.125 2.0625H6.875C4.22125 2.0625 2.0625 4.22125 2.0625 6.875V15.125C2.0625 17.7787 4.22125 19.9375 6.875 19.9375H15.125Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.5 11C5.5 7.96263 7.96263 5.5 11 5.5C14.0374 5.5 16.5 7.96263 16.5 11C16.5 14.0374 14.0374 16.5 11 16.5C7.96263 16.5 5.5 14.0374 5.5 11ZM7.5625 11C7.5625 12.8948 9.10525 14.4375 11 14.4375C12.8948 14.4375 14.4375 12.8948 14.4375 11C14.4375 9.10388 12.8948 7.5625 11 7.5625C9.10525 7.5625 7.5625 9.10388 7.5625 11Z"
+                    fill="white"
+                  />
+                  <circle cx="16.9124" cy="5.08761" r="0.732875" fill="white" />
+                </svg>
+              </button>
+            </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__author">
+          © 2026 Oleh Stasiuk.Створено в межах навчального проєкту.
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
